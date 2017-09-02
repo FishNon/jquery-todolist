@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo List</title>
+    <!--<link href="node_modules/normalize.css/normalize.css" rel="stylesheet" type="text/css"/>-->
+    <link href="css/vender/normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="container">
+    <h1>My To Do List</h1>
+
+    <!--添加任务-->
+    <form class="add-task">
+        <input name="content" type="text" placeholder="e.g. 下午记得撸代码" autofocus autocomplete="off"/>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!--清单列表-->
+    <div class="task-list"></div>
+    <div class="task-detail-mask"></div>
+
+    <!--任务详情-->
+    <div class="task-detail"></div>
+</div>
+</body>
+<!--<script src="node_modules/jquery/dist/jquery.min.js"></script>-->
+<!--<script src="node_modules/store/dist/store.everything.min.js"></script>-->
+<script src="js/vender/jquery-3.2.1.min.js"></script>
+<script src="js/vender/store.everything.min.js"></script>
+<script src="js/index.js"></script>
+</html>
