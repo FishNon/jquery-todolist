@@ -2,7 +2,7 @@ My TodoList
 ============
 
 ## 效果展示
-* [点击查看]()
+* [点击查看](https://fishnon.github.io/jquery-todolist/index.html)
 
 ## 项目简介：
 该项目是一个“TodoList”Web单页应用，其主要功能是进行任务的创建、更新、删除、查看详情、勾选完成任务等功能；
